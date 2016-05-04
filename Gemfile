@@ -45,6 +45,8 @@ group :development do
   gem 'guard'
   # To auto-reload without refresh
   gem 'guard-livereload', '~> 2.5', require: false
+  # To start the rails-server using guard
+  gem 'guard-rails', require: false
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
 end

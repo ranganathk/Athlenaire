@@ -1,5 +1,12 @@
 Rails.application.routes.draw do
-  root 'static_pages#land'
+  root                      'static_pages#land'
+  get    'basketball'    => 'static_pages#basketball'
+  get    'football'      => 'static_pages#football'
+  get    'body_building' => 'static_pages#body_building'
+  get    'cycling'       => 'static_pages#cycling'
+  get    'table_tennis'  => 'static_pages#table_tennis'
+  get    'badminton'     => 'static_pages#badminton'
+  get    'about'         => 'static_pages#about'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
