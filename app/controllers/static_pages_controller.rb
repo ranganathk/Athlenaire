@@ -22,4 +22,16 @@ class StaticPagesController < ApplicationController
 
   def about 
   end
+
+  def tournaments
+  end
+
+  def news
+  end
+
+  def players
+  end
+
+  def locker_room
+  end
 end

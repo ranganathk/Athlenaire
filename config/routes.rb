@@ -7,6 +7,10 @@ Rails.application.routes.draw do
   get    'table_tennis'  => 'static_pages#table_tennis'
   get    'badminton'     => 'static_pages#badminton'
   get    'about'         => 'static_pages#about'
+  get    'tournaments'   => 'static_pages#tournaments'
+  get    'news'          => 'static_pages#news'
+  get    'players'       => 'static_pages#players'
+  get    'locker_room'   => 'static_pages#locker_room'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
