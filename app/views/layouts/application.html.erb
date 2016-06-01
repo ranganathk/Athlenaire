@@ -8,9 +8,15 @@
   <link href='https://fonts.googleapis.com/css?family=Pinyon+Script' rel='stylesheet' type='text/css'>
 </head>
 <body>
-<%= render 'common/navbar' %>
 
-<%= yield %>
+
+<%= render 'common/navbar' %>
+<p class="notice"><%= notice %></p>
+<p class="alert"><%= alert %></p>
+<div class="container">
+  <%= yield %>  
+</div>
+
 
 </body>
 </html>

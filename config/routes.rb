@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  devise_for :users
   root                      'static_pages#land'
   get    'basketball'    => 'static_pages#basketball'
   get    'football'      => 'static_pages#football'
